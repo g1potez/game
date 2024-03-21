@@ -178,7 +178,7 @@ export default {
         flex-direction: column;
     }
     .content button {
-        margin-bottom: 30px;
+        margin: 0 0 30px 0;
     }
 }
 </style>
