@@ -177,8 +177,11 @@ export default {
     .content {
         flex-direction: column;
     }
-    .content button {
+    .screen .content button {
         margin: 0 0 30px 0;
+    }
+    .score {
+        font-size: 20px;
     }
 }
 </style>
