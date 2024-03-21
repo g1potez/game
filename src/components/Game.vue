@@ -67,8 +67,8 @@ export default {
                             case (speed <= 500 && speed > 60): speed = speed - 20; break;
                             case (speed == 60): speed = speed; break;
                             
-                            case (speed <= 300 && speed > 140): active_period = 100; break;
-                            case (speed <= 140): active_period = 80; break;
+                            case (speed <= 300 && speed > 120): active_period = 80; break;
+                            case (speed <= 120): active_period = 50; break;
                         }
                     } 
                     else if (youArr.length > 3 && youArr.toString() !== compArr.toString()){
