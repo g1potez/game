@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    font-family: "Inter", sans-serif;
+    color: #fff;
+}
+body {
+    background-color: #4e46d7;
+}
+button {
+    cursor: pointer;
+    background-color: #4e46d7;
+    font-size: 20px;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+button:hover {
+    background-color: #110c74;
+}
+h1 {
+    text-align: center;
+}
